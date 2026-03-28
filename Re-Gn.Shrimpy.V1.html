@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="https://cdn.jsdelivr.net/gh/gn-math/gn-math-DONTDMCA@main/">
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-5521219086088837?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+    <script>window.addEventListener('beforeunload', function (event) { event.preventDefault(); event.returnValue = ''; return 'Are you sure you want to leave? Any unsaved changes will be lost.'; });</script>
+    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5521219086088837" crossorigin="anonymous"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WX5VS54ZDW"></script>
+    <meta name="google-adsense-account" content="ca-pub-5521219086088837">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-WX5VS54ZDW');
+    </script>
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-5521219086088837?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+    <script src="https://cdn.jsdelivr.net/gh/gn-math/gn-math-DONTDMCA@main/gnmath.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrimpy | Re-Gn</title>
+    <meta name="title" content="Shrimpy | Re-Gn">
+    <meta name="description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on Shrimpy | Re-Gn. Fast, free, no downloads—perfect for school or home.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Shrimpy-Re-Gn.github.io/">
+    <meta property="og:title" content="Shrimpy | Re-Gn">
+    <meta property="og:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on Shrimpy | Re-Gn. Fast, free, no downloads—perfect for school or home.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://shrimpy-re-gn.github.io/">
+    <meta name="twitter:title" content="Shrimpy | Re-Gn">
+    <meta name="twitter:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on Shrimpy | Re-Gn. Fast, free, no downloads—perfect for school or home.">
+    <style>
+        :root {
+    --primary: #f38754; /* shrimp base */
+    --primary-hover: #ffa67c;
+    --primary-light: rgba(243, 135, 84, 0.12);
+    --primary-lighter: rgba(255, 166, 124, 0.06);
+    --accent: #ffc5ab;
+    --accent-light: rgba(255, 197, 171, 0.12);
+    --success: #ffe7db;
+    --warning: #ffc5ab;
+    --text: #1a1a1a;
+    --text-muted: #6b7280;
+    --text-light: #9ca3af;
+    --bg: #fff3ec;
+    --bg-secondary: #ffe7db;
+    --surface: #fff3ec;
+    --surface-hover: #ffe7db;
+    --border: rgba(243,135,84,0.12);
+    --border-light: rgba(255,166,124,0.06);
+    --glass: rgba(255, 243, 236, 0.75);
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.08), 0 1px 2px -1px rgb(0 0 0 / 0.06);
+    --shadow: 0 6px 12px -4px rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.06);
+    --shadow-lg: 0 12px 24px -6px rgb(0 0 0 / 0.08), 0 6px 12px -8px rgb(0 0 0 / 0.06);
+    --shadow-xl: 0 24px 36px -10px rgb(0 0 0 / 0.10), 0 8px 16px -12px rgb(0 0 0 / 0.06);
+    --shadow-glow: 0 0 30px rgba(243,135,84,0.18);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --gradient-primary: linear-gradient(120deg, #f38754 0%, #ffa67c 50%, #ffc5ab 100%);
+    --gradient-accent: linear-gradient(120deg, #ffc5ab 0%, #ffe7db 100%);
+    --gradient-surface: linear-gradient(180deg, #fff3ec 0%, #ffe7db 100%);
+}
+
+.dark-mode {
+    /* Shrimp Mode: bright, colorful, all-shrimp-palette (no external colors) */
+    --primary: #f38754;
+    --primary-hover: #612002;
+    --primary-light: rgba(243,135,84,0.18);
+    --primary-lighter: rgba(255,166,124,0.10);
+    --accent: #ffc5ab;
+    --accent-light: rgba(255,197,171,0.14);
+    --success: #ffe7db;
+    --warning: #ffc5ab;
+    --text: #ffa571; /* light text to pop on colorful shrimp backgrounds */
+    --text-muted: rgba(255,243,236,0.85);
+    --text-light: rgba(255,243,236,0.65);
+    --bg: linear-gradient(180deg, #f38754 0%, #ffa67c 50%, #ffc5ab 100%);
+    --bg-solid: #f38754;
+    --bg-secondary: #ffa67c;
+    --surface: linear-gradient(180deg, #ffc5ab 0%, #ffe7db 100%);
+    --surface-hover: #ffe7db;
+    --border: rgba(255,166,124,0.18);
+    --border-light: rgba(255,197,171,0.10);
+    --glass: rgba(255,243,236,0.12);
+    --shadow-xs: 0 1px 2px 0 rgba(255,166,124,0.06);
+    --shadow-sm: 0 4px 10px 0 rgba(255,166,124,0.08), 0 1px 2px -1px rgba(255,166,124,0.06);
+    --shadow: 0 10px 30px -10px rgba(255,166,124,0.10), 0 4px 8px -6px rgba(255,166,124,0.06);
+    --shadow-lg: 0 18px 40px -16px rgba(255,166,124,0.12), 0 8px 20px -12px rgba(255,166,124,0.08);
+    --shadow-xl: 0 24px 60px -20px rgba(255,166,124,0.14), 0 12px 30px -18px rgba(255,166,124,0.10);
+    --shadow-glow: 0 0 40px rgba(255,166,124,0.18);
+    --gradient-primary: linear-gradient(120deg, #f38754 0%, #ffa67c 45%, #ffc5ab 100%);
+    --gradient-accent: linear-gradient(120deg, #ffc5ab 0%, #ffe7db 100%);
+    --gradient-surface: linear-gradient(180deg, #ffc5ab 0%, #ffe7db 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    background: var(--gradient-primary);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(20px);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.25rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.logo {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.search-container {
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    gap: 0.75rem;
+}
+
+#searchBar {
+    flex: 1;
+    padding: 0.875rem 1rem;
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    color: var(--text);
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+}
+
+#searchBar:focus {
+    background: var(--text);
+    box-shadow: 0 0 0 3px rgba(252, 38, 81, 0.25), var(--shadow);
+    transform: translateY(-1px);
+    color: var(--glass);
+}
+
+#searchBar::placeholder {
+    color: var(--text-muted);
+}
+
+#sortOptions {
+    padding: 0.875rem 1rem;
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    color: var(--text-muted);
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 130px;
+    box-shadow: var(--shadow-sm);
+}
+
+#sortOptions:hover {
+    background: var(--text);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+    color: var(--glass);
+}
+
+#filterOptions {
+    padding: 0.875rem 1rem;
+    border: 0;
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    color: var(--text-muted);
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 130px;
+    box-shadow: var(--shadow-sm);
+}
+
+#filterOptions:hover {
+    background: var(--text);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+    color: var(--glass);
+}
+
+.control-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+main {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    padding-bottom: 6rem;
+}
+
+#zoneCount {
+    margin: 0 0 1.5rem;
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#zoneCount::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--primary);
+}
+
+#container,
+#featuredZones {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.zone-item {
+    background: var(--gradient-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: var(--shadow-sm);
+}
+
+.zone-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary);
+}
+
+.zone-item:hover::before {
+    opacity: 1;
+}
+
+.zone-item::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--primary-light);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.zone-item img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    background: var(--border-light);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.zone-item:hover img {
+    transform: scale(1.05);
+}
+
+.zone-item button {
+    background: transparent;
+    color: var(--text);
+    border: 0;
+    padding: 1.25rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.zone-item:hover button {
+    color: var(--primary);
+    background: rgba(252, 38, 81, 0.05);
+}
+
+#zoneViewer {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+    animation: slideInUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.zone-header {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--shadow-lg);
+}
+
+.zone-title {
+    flex: 1;
+    min-width: 0;
+}
+
+#zoneName {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem;
+    line-height: 1.3;
+}
+
+#zoneId {
+    display: none;
+}
+
+#zoneAuthor {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+#zoneAuthor:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.zone-controls {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.zone-controls button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 0.625rem 1rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(20px);
+}
+
+.zone-controls button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+}
+
+#zoneFrame {
+    flex-grow: 1;
+    border: none;
+    width: 90%;
+    height: 90%;
+}
+
+#popupOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+    padding: 1rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.popup {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    width: 100%;
+    max-width: 520px;
+    max-height: 80vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    animation: slideInScale 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes slideInScale {
+    from {
+        transform: scale(0.9) translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+.popup-header {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#popupTitle {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#popupClose {
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--radius);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+}
+
+#popupClose:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+
+#popupBody {
+    padding: 1.5rem;
+    overflow-y: auto;
+    color: var(--text);
+}
+
+#popupBody input[type="text"],
+#popupBody input[type="file"] {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg-secondary);
+    color: var(--text);
+    font-size: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+}
+
+#popupBody input[type="text"]:focus,
+#popupBody input[type="file"]:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(252, 38, 81, 0.1);
+    transform: translateY(-1px);
+}
+
+footer {
+    background: var(--bg-secondary);
+    border-top: 1px solid var(--border);
+    padding: 1rem 1rem;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+}
+
+.footer-links a:hover {
+    color: var(--primary-hover);
+    background: var(--primary-light);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .search-container {
+        width: 100%;
+        max-width: none;
+    }
+
+    main {
+        padding: 1.5rem 1rem;
+    }
+
+    #container,
+    #featuredZones {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 1.25rem;
+    }
+
+    .zone-item button {
+        padding: 1rem 0.75rem;
+        min-height: 65px;
+        font-size: 13px;
+    }
+
+    .footer-links {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #container,
+    #featuredZones {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 1rem;
+    }
+
+    .popup {
+        margin: 0.5rem;
+    }
+
+    .zone-item:hover {
+        transform: translateY(-10px) scale(1.01);
+    }
+
+}
+.control-button img {
+    transition: transform 0.4s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.control-button:hover img {
+    transform: rotate(40deg);
+}
+
+.control-button,
+.control-button:hover {
+    box-shadow: none;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+.control-button:active {
+    transform: translateY(0);
+}
+
+.control-buttons button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+}
+.control-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.settings-button {
+    background: var(--gradient-primary);
+    color: white;
+    border: 0;
+    padding: 0.875rem 1.5rem;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-sm);
+    min-width: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.settings-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.settings-button:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
+/* Shrimp-themed micro-animations and liveliness */
+.logo {
+    display: inline-block;
+    transform-origin: center;
+    animation: float 6s ease-in-out infinite, logo-wobble 8s ease-in-out infinite, shimmer 3s linear infinite;
+    background: linear-gradient(90deg, #fff3ec 5%, #f38754 35%, #fff3ec 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.floating { animation: float 6s ease-in-out infinite; }
+.breathing { animation: pulse 3.4s ease-in-out infinite; }
+.shimmer-text { animation: shimmer 2.8s linear infinite; background-size: 200% 100%; }
+.card-drift { animation: drift 18s linear infinite; }
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes logo-wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-1.2deg); }
+    50% { transform: rotate(0.8deg); }
+    75% { transform: rotate(-0.6deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(243,135,84,0.12); }
+    70% { box-shadow: 0 0 40px 10px rgba(255,166,124,0.04); }
+    100% { box-shadow: 0 0 0 0 rgba(243,135,84,0.00); }
+}
+
+@keyframes shimmer {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+@keyframes drift {
+    0% { transform: translate3d(0,0,0) rotate(0deg); }
+    50% { transform: translate3d(6px,-4px,0) rotate(0.2deg); }
+    100% { transform: translate3d(0,0,0) rotate(0deg); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .logo, .floating, .breathing, .shimmer-text, .card-drift { animation: none !important; }
+}
+
+/* Extra: Big set of shrimpy animations and particle/background layers */
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: radial-gradient(circle at 10% 20%, rgba(255,197,171,0.12), transparent 10%), radial-gradient(circle at 80% 80%, rgba(255,243,236,0.08), transparent 12%), var(--bg);
+    background-size: 140% 140%, 160% 160%, 200% 200%;
+    animation: bgMove 30s linear infinite, bgShift 45s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.particle-layer {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+.particle { position: absolute; border-radius: 50%; opacity: 0.6; mix-blend-mode: screen; }
+.particle.p1 { width: 18px; height: 18px; background: #fff3ec; left: 5%; top: 40%; animation: rise 18s linear infinite; }
+.particle.p2 { width: 24px; height: 24px; background: #ffe7db; left: 25%; top: 80%; animation: rise 22s linear infinite; }
+.particle.p3 { width: 14px; height: 14px; background: #ffc5ab; left: 60%; top: 60%; animation: rise 16s linear infinite; }
+.particle.p4 { width: 28px; height: 28px; background: #ffa67c; left: 85%; top: 30%; animation: rise 26s linear infinite; }
+
+@keyframes bgMove {
+    0% { background-position: 0% 0%, 0% 0%, 50% 50%; }
+    50% { background-position: 50% 50%, 60% 40%, 30% 70%; }
+    100% { background-position: 0% 0%, 0% 0%, 50% 50%; }
+}
+@keyframes bgShift {
+    0% { transform: scale(1) rotate(0deg); }
+    50% { transform: scale(1.03) rotate(0.3deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
+@keyframes rise {
+    0% { transform: translateY(30vh) translateX(0) scale(0.9); opacity: 0; }
+    10% { opacity: 0.6; }
+    50% { transform: translateY(-20vh) translateX(6vw) scale(1); }
+    90% { opacity: 0.3; }
+    100% { transform: translateY(-40vh) translateX(10vw) scale(0.8); opacity: 0; }
+}
+
+/* Buttons: big shrimp breathing + hover ripple */
+.settings-button, .control-button {
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    animation: shrimp-breath 4s ease-in-out infinite;
+}
+@keyframes shrimp-breath {
+    0% { transform: translateY(0) scale(1); box-shadow: 0 6px 18px -8px rgba(255,166,124,0.06); }
+    50% { transform: translateY(-4px) scale(1.02); box-shadow: 0 18px 48px -16px rgba(255,166,124,0.10); }
+    100% { transform: translateY(0) scale(1); box-shadow: 0 6px 18px -8px rgba(255,166,124,0.06); }
+}
+
+/* Zone items and cards: tilt + drift + glow */
+.zone-item { transition: transform 0.4s cubic-bezier(.2,.9,.3,1), box-shadow 0.4s; will-change: transform; }
+.zone-item:hover { transform: translateY(-8px) rotate(-0.6deg) scale(1.02); box-shadow: var(--shadow-lg); }
+.zone-item .title { background: linear-gradient(90deg, var(--primary), var(--primary-hover)); -webkit-background-clip: text; color: transparent; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; box-shadow: var(--shadow); }
+
+/* Shimmer text overlays */
+.shimmer { background: linear-gradient(90deg, rgba(255,243,236,0.06) 0%, rgba(255,243,236,0.22) 50%, rgba(255,243,236,0.06) 100%); background-size: 200% 100%; animation: shimmer 2.5s linear infinite; -webkit-background-clip: text; color: transparent; }
+
+/* Click ripple for interactive elements (pure CSS) */
+.ripple { position: relative; overflow: hidden; }
+.ripple:after { content: ''; position: absolute; width: 120px; height: 120px; left: 50%; top: 50%; transform: translate(-50%,-50%) scale(0); opacity: 0; border-radius: 50%; background: rgba(255,243,236,0.12); transition: transform 0.6s ease, opacity 0.6s ease; pointer-events: none; }
+.ripple:active:after { transform: translate(-50%,-50%) scale(1); opacity: 1; transition: transform 0s, opacity 0.3s ease; }
+
+/* Extra fun: marquee of tiny shrimp dots across header */
+.shrimp-marquee { position: absolute; left: 0; right: 0; top: 100%; height: 10px; overflow: hidden; pointer-events: none; }
+.shrimp-marquee .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 8px; background: linear-gradient(90deg, #fff3ec, #ffc5ab); animation: swim 12s linear infinite; }
+@keyframes swim { 0% { transform: translateX(-10%); } 100% { transform: translateX(110%); } }
+
+@media (prefers-reduced-motion: reduce) {
+    body::before, .particle, .settings-button, .zone-item, .shimmer, .shrimp-marquee .dot { animation: none !important; }
+}
+
+/* Idle micro-animations: breathing cards, search flash, occasional spins */
+.card-breathe { animation: card-breathe 2.6s ease-in-out !important; animation-fill-mode: both; will-change: transform, box-shadow; }
+@keyframes card-breathe {
+    0% { transform: translateY(0) scale(1); box-shadow: var(--shadow); }
+    40% { transform: translateY(-8px) scale(1.02); box-shadow: var(--shadow-lg); }
+    100% { transform: translateY(0) scale(1); box-shadow: var(--shadow); }
+}
+
+.search-flash { animation: search-flash 1s ease-in-out; }
+@keyframes search-flash {
+    0% { box-shadow: 0 0 0 rgba(255,166,124,0); }
+    30% { box-shadow: 0 8px 30px rgba(255,166,124,0.14); }
+    100% { box-shadow: 0 0 0 rgba(255,166,124,0); }
+}
+
+.idle-spin { animation: idle-spin 1.2s cubic-bezier(.2,.9,.3,1); }
+@keyframes idle-spin {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(200deg) scale(1.04); }
+    100% { transform: rotate(0deg) scale(1); }
+}
+
+/* Make sure interactive elements keep base pointer behavior */
+.settings-button.idle-spin, .control-button.idle-spin { will-change: transform; }
+
+@media (prefers-reduced-motion: reduce) {
+    .card-breathe, .search-flash, .idle-spin { animation: none !important; }
+}
+
+    </style>
+</head>
+<body class="dark-mode">
+    <header>
+        <div class="header-content">
+            <div class="logo">Shrimpy</div>
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Search zones..." oninput="filterZones()">
+                <select id="sortOptions" onchange="sortZones()">
+                    <option value="name">Name</option>
+                    <option value="id">ID (Date)</option>
+                    <option value="popular">Popular</option>
+                </select>
+                <select id="filterOptions" onchange="filterZones2()">
+                    <option value="none">(SELECT TAG)</option>
+                </select>
+            </div>
+            <div class="control-buttons">
+                <button id="refresh" class="control-button" title="Refresh all the zones" onclick="listZones()">
+                    <img src="refresh-icon.png" alt="refresh">
+                </button>
+
+                <button id="settings" class="control-button" title="Settings!">
+                    <img src="setting.png" alt="settings">
+                </button>
+            </div>
+        </div>
+    </header>
+    <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-client="ca-pub-5521219086088837"
+    data-ad-slot="5549138288"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+   <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+
+    <main>
+        <details id="featuredZonesWrapper" open>
+            <summary id="allZonesSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">Featured Zones</summary>
+            <div id="featuredZones" class="zone-container"></div>
+        </details>
+        <br><hr><br>
+        <details id="allZonesWrapper" open>
+            <summary id="allSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">All Zones</summary>
+            <div id="container">Loading...</div>
+        </details>
+    </main>
+
+    <div id="zoneViewer">
+        <div class="zone-header">
+            <div class="zone-title">
+                <h2 id="zoneName">zone</h2>
+                <span id="zoneId" style="display: none;"></span>
+                <a id="zoneAuthor" href="#" target="_blank">by Author</a>
+            </div>
+            <div class="zone-controls">
+                <button onclick="fullscreenZone()">Fullscreen</button>
+                <button onclick="aboutBlank()">Open in New Tab</button>
+                <button onclick="downloadZone()">Download</button>
+                <button onclick="closeZone()">Close</button>
+            </div>
+        </div>
+        <iframe id="zoneFrame"></iframe>
+    </div>
+
+    <script>
+    (function(){
+        // Enhanced idle animations: always reschedule, add particles, and watch for dynamically loaded items.
+        if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+        function rand(min, max){ return Math.floor(Math.random()*(max-min+1))+min; }
+
+        // Ensure particle layer exists
+        function ensureParticles(){
+            if (document.querySelector('.particle-layer')) return;
+            const layer = document.createElement('div');
+            layer.className = 'particle-layer';
+            // create multiple particles with slight randomization
+            for (let i=0;i<8;i++){
+                const p = document.createElement('div');
+                p.className = 'particle p'+((i%4)+1);
+                // randomize start positions
+                p.style.left = (5 + Math.random()*90) + '%';
+                p.style.top = (40 + Math.random()*50) + '%';
+                p.style.opacity = 0.4 + Math.random()*0.5;
+                p.style.width = (10 + Math.random()*28) + 'px';
+                p.style.height = p.style.width;
+                p.style.animationDuration = (14 + Math.random()*18) + 's';
+                layer.appendChild(p);
+            }
+            document.body.appendChild(layer);
+        }
+
+        // Cards: occasional breathing; always reschedule even if none yet
+        function getCards(){ return Array.from(document.querySelectorAll('.zone-item, .card')); }
+        function pulseRandomCard(){
+            const list = getCards();
+            if (list.length){
+                const el = list[Math.floor(Math.random()*list.length)];
+                // avoid triggering on elements already animating
+                if (!el.classList.contains('card-breathe')){
+                    // restart animation reliably
+                    el.classList.remove('card-breathe');
+                    // force reflow
+                    void el.offsetWidth;
+                    el.classList.add('card-breathe');
+                    setTimeout(()=> el.classList.remove('card-breathe'), 2600);
+                    // small particle burst when card breathes
+                    burstAt(el);
+                }
+            }
+            // schedule next regardless (so it keeps trying until cards appear)
+            setTimeout(pulseRandomCard, rand(3000, 9000));
+        }
+
+        // small burst of temporary particles near an element
+        function burstAt(el){
+            try{
+                const rect = el.getBoundingClientRect();
+                const count = 6;
+                const burst = document.createElement('div');
+                burst.style.position='fixed'; burst.style.left='0'; burst.style.top='0'; burst.style.pointerEvents='none'; burst.className='particle-burst';
+                for(let i=0;i<count;i++){
+                    const s = document.createElement('div');
+                    s.className='particle';
+                    s.style.width='8px'; s.style.height='8px'; s.style.borderRadius='50%';
+                    s.style.left=(rect.left + rect.width/2 + (Math.random()-0.5)*rect.width/1.5)+'px';
+                    s.style.top=(rect.top + rect.height/2 + (Math.random()-0.5)*rect.height/1.5)+'px';
+                    s.style.background = ['#fff3ec','#ffe7db','#ffc5ab','#ffa67c'][Math.floor(Math.random()*4)];
+                    s.style.opacity='0.9'; s.style.transform='translateY(0) scale(1)';
+                    s.style.transition='transform 900ms ease-out, opacity 900ms linear';
+                    burst.appendChild(s);
+                    // animate
+                    setTimeout(()=>{ s.style.transform = 'translateY(-40px) translateX('+(Math.random()*80-40)+'px) scale(0.6)'; s.style.opacity='0'; }, 20 + i*30);
+                }
+                document.body.appendChild(burst);
+                setTimeout(()=> burst.remove(), 1200);
+            }catch(e){/* ignore */}
+        }
+
+        // Search bar flash occasionally; always reschedule
+        function flashSearch(){
+            const search = document.getElementById('searchBar');
+            if (search){
+                search.classList.add('search-flash');
+                setTimeout(()=> search.classList.remove('search-flash'), 1000);
+                setTimeout(flashSearch, rand(6000, 14000));
+            } else {
+                // try again soon if not present
+                setTimeout(flashSearch, 2000);
+            }
+        }
+
+        // Spin controls occasionally; always reschedule
+        function spinOne(){
+            const controls = [document.getElementById('refresh'), document.getElementById('settings')].filter(Boolean);
+            if (controls.length){
+                const el = controls[Math.floor(Math.random()*controls.length)];
+                if (!el.classList.contains('idle-spin')){
+                    el.classList.add('idle-spin');
+                    setTimeout(()=> el.classList.remove('idle-spin'), 1200);
+                }
+            }
+            setTimeout(spinOne, rand(8000, 20000));
+        }
+
+        // logo pulse/shimmer occasionally
+        function logoFlick(){
+            const logo = document.querySelector('.logo');
+            if (!logo) { setTimeout(logoFlick, 2000); return; }
+            logo.classList.add('shimmer-text');
+            setTimeout(()=> logo.classList.remove('shimmer-text'), 1400);
+            setTimeout(logoFlick, rand(5000, 14000));
+        }
+
+        // Observe for dynamically added zone items so we can animate them when they appear
+        function observeZones(){
+            const container = document.getElementById('container') || document.body;
+            const mo = new MutationObserver(muts=>{
+                for(const m of muts){
+                    for(const n of m.addedNodes){
+                        if (!(n instanceof HTMLElement)) continue;
+                        if (n.classList && (n.classList.contains('zone-item') || n.classList.contains('card'))){
+                            // tiny entrance
+                            n.style.opacity = 0; n.style.transform = 'translateY(8px)';
+                            requestAnimationFrame(()=>{ n.style.transition='opacity 420ms ease, transform 420ms ease'; n.style.opacity=1; n.style.transform='translateY(0)'; setTimeout(()=>{ n.style.transition=''; },500); });
+                        }
+                        // if many children added, scan for zone-item inside
+                        const found = n.querySelectorAll && n.querySelectorAll('.zone-item, .card');
+                        if (found && found.length){
+                            found.forEach(el=>{ el.style.opacity=0; el.style.transform='translateY(8px)'; requestAnimationFrame(()=>{ el.style.transition='opacity 420ms ease, transform 420ms ease'; el.style.opacity=1; el.style.transform='translateY(0)'; setTimeout(()=>{ el.style.transition=''; },500); }); });
+                        }
+                    }
+                }
+            });
+            mo.observe(container, { childList: true, subtree: true });
+        }
+
+        // Init
+        ensureParticles();
+        observeZones();
+        setTimeout(pulseRandomCard, 1200 + rand(0,1500));
+        setTimeout(flashSearch, 1800 + rand(0,2000));
+        setTimeout(spinOne, 2400 + rand(0,3000));
+        setTimeout(logoFlick, 2600 + rand(0,3000));
+    })();
+    </script>
+
+    <div id="popupOverlay">
+        <div class="popup">
+            <div class="popup-header">
+                <h3 id="popupTitle">Title</h3>
+                <button id="popupClose" onclick="closePopup()">×</button>
+            </div>
+            <div id="popupBody">
+                Content will be here
+            </div>
+        </div>
+    </div>
+
+    <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-client="ca-pub-5521219086088837"
+    data-ad-slot="5549138288"
+    data-ad-format="auto"
+    data-full-width-responsive="true"></ins>
+   <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="loadDMCA(); return false;">DMCA</a>
+            <a href="#" onclick="showContact(); return false;">Contact</a>
+            <a href="#" onclick="loadPrivacy(); return false;">Privacy Policy</a>
+            <a href="javascript:saveData()">Export Data</a>
+            <a href="#" onclick="document.getElementById('importData').click(); return false;">Import Data</a>
+            <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
+        </div>
+    </footer>
+    <script>const container = document.getElementById('container');
+const zoneViewer = document.getElementById('zoneViewer');
+let zoneFrame = document.getElementById('zoneFrame');
+const searchBar = document.getElementById('searchBar');
+const sortOptions = document.getElementById('sortOptions');
+const filterOptions = document.getElementById('filterOptions');
+// https://www.jsdelivr.com/tools/purge
+const zonesurls = [
+    "https://cdn.jsdelivr.net/%67%68/%67%6e%2d%6d%61%74%68/%61%73%73%65%74%73@%6d%61%69%6e/%7a%6f%6e%65%73%2e%6a%73%6f%6e",
+    "https://cdn.jsdelivr.net/gh/gn-math/assets@latest/zones.json",
+    "https://cdn.jsdelivr.net/gh/gn-math/assets@master/zones.json",
+    "https://cdn.jsdelivr.net/gh/gn-math/assets/zones.json"
+];
+let zonesURL = zonesurls[Math.floor(Math.random() * zonesurls.length)];
+const coverURL = "https://cdn.jsdelivr.net/gh/gn-math/covers@main";
+const htmlURL = "https://cdn.jsdelivr.net/gh/gn-math/html@main";
+let zones = [];
+let popularityData = {};
+const featuredContainer = document.getElementById('featuredZones');
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+  );
+}
+async function listZones() {
+    try {
+      let sharesponse;
+      let shajson;
+      let sha;
+        try {
+          sharesponse = await fetch("https://api.github.com/repos/gn-math/assets/commits?t="+Date.now());
+        } catch (error) {}
+        if (sharesponse && sharesponse.status === 200) {
+          try {
+            shajson = await sharesponse.json();
+            sha = shajson[0]['sha'];
+            if (sha) {
+                zonesURL = `https://cdn.jsdelivr.net/gh/gn-math/assets@${sha}/zones.json`;
+            }
+          } catch (error) {
+            try {
+                let secondarysharesponse = await fetch("https://raw.githubusercontent.com/gn-math/xml/refs/heads/main/sha.txt?t="+Date.now());
+                if (secondarysharesponse && secondarysharesponse.status === 200) {
+                    sha = (await secondarysharesponse.text()).trim();
+                    if (sha) {
+                        zonesURL = `https://cdn.jsdelivr.net/gh/gn-math/assets@${sha}/zones.json`;
+                    }
+                }
+            } catch(error) {}
+          }
+        }
+        const response = await fetch(zonesURL+"?t="+Date.now());
+        const json = await response.json();
+        zones = json;
+        zones[0].featured = true; // always gonna be the discord
+        await fetchPopularity();
+        sortZones();
+        const search = new URLSearchParams(window.location.search);
+        const id = search.get('id');
+        const embed = window.location.hash.includes("embed");
+        if (id) {
+            const zone = zones.find(zone => zone.id + '' == id + '');
+            if (zone) {
+                if (embed) {
+                    if (zone.url.startsWith("http")) {
+                        window.open(zone.url, "_blank");
+                    } else {
+                        const url = zone.url.replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
+                        fetch(url+"?t="+Date.now()).then(response => response.text()).then(html => {
+                            document.documentElement.innerHTML = html;
+                            const popup = document.createElement("div");
+                            popup.style.position = "fixed";
+                            popup.style.bottom = "20px";
+                            popup.style.right = "20px";
+                            popup.style.backgroundColor = "#cce5ff";
+                            popup.style.color = "#004085";
+                            popup.style.padding = "10px";
+                            popup.style.border = "1px solid #b8daff";
+                            popup.style.borderRadius = "5px";
+                            popup.style.boxShadow = "0px 0px 10px rgba(0,0,0,0.1)";
+                            popup.style.fontFamily = "Arial, sans-serif";
+                            
+                            popup.innerHTML = `Play more games at <a href="https://gn-math.github.io" target="_blank" style="color:#004085; font-weight:bold;">https://gn-math.github.io</a>!`;
+                            
+                            const closeBtn = document.createElement("button");
+                            closeBtn.innerText = "?";
+                            closeBtn.style.marginLeft = "10px";
+                            closeBtn.style.background = "none";
+                            closeBtn.style.border = "none";
+                            closeBtn.style.cursor = "pointer";
+                            closeBtn.style.color = "#004085";
+                            closeBtn.style.fontWeight = "bold";
+                            
+                            closeBtn.onclick = () => popup.remove();
+                            popup.appendChild(closeBtn);
+                            document.body.appendChild(popup);
+                            document.documentElement.querySelectorAll('script').forEach(oldScript => {
+                                const newScript = document.createElement('script');
+                                if (oldScript.src) {
+                                    newScript.src = oldScript.src;
+                                } else {
+                                    newScript.textContent = oldScript.textContent;
+                                }
+                                document.body.appendChild(newScript);
+                            });
+                        }).catch(error => alert("Failed to load zone: " + error));
+                    }
+                } else {
+                    openZone(zone);
+                }
+            }
+        }
+
+        let alltags = [];
+        for (const obj of json) {
+            if (Array.isArray(obj.special)) {
+                alltags.push(...obj.special);
+            }
+        }
+
+        alltags = [...new Set(alltags)];
+        let filteroption = document.getElementById("filterOptions");
+        if (filteroption && filteroption.children.length > 1) {
+            while (filteroption.children.length > 1) {
+                filteroption.removeChild(filteroption.lastElementChild);
+            }
+        }
+        for (const tag of alltags) {
+            const opt = document.createElement("option");
+            opt.value = tag;
+            opt.textContent = toTitleCase(tag);
+            filteroption.appendChild(opt);
+        }
+    } catch (error) {
+        console.error(error);
+        container.innerHTML = `Error loading zones: ${error}`;
+    }
+}
+async function fetchPopularity() {
+    try {
+        const response = await fetch("https://data.jsdelivr.com/v1/stats/packages/gh/gn-math/html@main/files?period=year");
+        const data = await response.json();
+        data.forEach(file => {
+            const idMatch = file.name.match(/\/(\d+)\.html$/);
+            if (idMatch) {
+                const id = parseInt(idMatch[1]);
+                popularityData[id] = file.hits.total;
+            }
+        });
+    } catch (error) {
+        popularityData[0] = 0;
+    }
+}
+
+function sortZones() {
+    const sortBy = sortOptions.value;
+    if (sortBy === 'name') {
+        zones.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortBy === 'id') {
+        zones.sort((a, b) => a.id - b.id);
+    } else if (sortBy === 'popular') {
+        zones.sort((a, b) => (popularityData[b.id] || 0) - (popularityData[a.id] || 0));
+    }
+    zones.sort((a, b) => (a.id === -1 ? -1 : b.id === -1 ? 1 : 0));
+    if (featuredContainer.innerHTML === "") {
+        const featured = zones.filter(z => z.featured);
+        displayFeaturedZones(featured);
+    }
+    displayZones(zones);
+}
+
+function displayFeaturedZones(featuredZones) {
+    featuredContainer.innerHTML = "";
+    featuredZones.forEach((file, index) => {
+        const zoneItem = document.createElement("div");
+        zoneItem.className = "zone-item";
+        zoneItem.onclick = () => openZone(file);
+        const img = document.createElement("img");
+        img.dataset.src = file.cover.replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
+        img.alt = file.name;
+        img.loading = "lazy";
+        img.className = "lazy-zone-img";
+        zoneItem.appendChild(img);
+        const button = document.createElement("button");
+        button.textContent = file.name;
+        button.onclick = (event) => {
+            event.stopPropagation();
+            openZone(file);
+        };
+        zoneItem.appendChild(button);
+        featuredContainer.appendChild(zoneItem);
+    });
+    if (featuredContainer.innerHTML === "") {
+        featuredContainer.innerHTML = "No featured zones found.";
+    } else {
+        document.getElementById("allZonesSummary").textContent = `Featured Zones (${featuredZones.length})`;
+    }
+
+    const lazyImages = document.querySelectorAll('#featuredZones img.lazy-zone-img');
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !zoneViewer.hidden) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove("lazy-zone-img");
+                observer.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: "100px", 
+        threshold: 0.1
+    });
+
+    lazyImages.forEach(img => {
+        imageObserver.observe(img);
+    });
+}
+
+function displayZones(zones) {
+    container.innerHTML = "";
+    zones.forEach((file, index) => {
+        const zoneItem = document.createElement("div");
+        zoneItem.className = "zone-item";
+        zoneItem.onclick = () => openZone(file);
+        const img = document.createElement("img");
+        img.dataset.src = file.cover.replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
+        img.alt = file.name;
+        img.loading = "lazy";
+        img.className = "lazy-zone-img";
+        zoneItem.appendChild(img);
+        const button = document.createElement("button");
+        button.textContent = file.name;
+        button.onclick = (event) => {
+            event.stopPropagation();
+            openZone(file);
+        };
+        zoneItem.appendChild(button);
+        container.appendChild(zoneItem);
+    });
+    if (container.innerHTML === "") {
+        container.innerHTML = "No zones found.";
+    } else {
+        document.getElementById("allSummary").textContent = `All Zones (${zones.length})`;
+    }
+
+    const lazyImages = document.querySelectorAll('img.lazy-zone-img');
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !zoneViewer.hidden) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove("lazy-zone-img");
+                observer.unobserve(img);
+            }
+        });
+    }, {
+        rootMargin: "100px", 
+        threshold: 0.1
+    });
+
+    lazyImages.forEach(img => {
+        imageObserver.observe(img);
+    });
+}
+
+function filterZones2() {
+    const query = filterOptions.value;
+    if (query === "none") {
+        displayZones(zones);
+    } else {
+        const filteredZones = zones.filter(zone => zone.special?.includes(query));
+        if (query.length !== 0) {
+            document.getElementById("featuredZonesWrapper").removeAttribute("open");
+        }
+        displayZones(filteredZones);
+    }
+}
+
+function filterZones() {
+    const query = searchBar.value.toLowerCase();
+    const filteredZones = zones.filter(zone => zone.name.toLowerCase().includes(query));
+    if (query.length !== 0) {
+        document.getElementById("featuredZonesWrapper").removeAttribute("open");
+    }
+    displayZones(filteredZones);
+}
+
+function openZone(file) {
+    if (file.url.startsWith("http")) {
+        window.open(file.url, "_blank");
+    } else {
+        const url = file.url.replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
+        fetch(url+"?t="+Date.now()).then(response => response.text()).then(html => {
+            if (zoneFrame.contentDocument === null) {
+                zoneFrame = document.createElement("iframe");
+                zoneFrame.id = "zoneFrame";
+                zoneViewer.appendChild(zoneFrame);
+            }
+            zoneFrame.contentDocument.open();
+            zoneFrame.contentDocument.write(html);
+            zoneFrame.contentDocument.close();
+            document.getElementById('zoneName').textContent = file.name;
+            document.getElementById('zoneId').textContent = file.id;
+            document.getElementById('zoneAuthor').textContent = "by " + file.author;
+            if (file.authorLink) {
+                document.getElementById('zoneAuthor').href = file.authorLink;
+            }
+            zoneViewer.style.display = "block";
+            const url = new URL(window.location);
+            url.searchParams.set('id', file.id);
+            history.pushState(null, '', url.toString());
+            zoneViewer.hidden = true;
+        }).catch(error => alert("Failed to load zone: " + error));
+    }
+}
+
+function aboutBlank() {
+    const newWindow = window.open("about:blank", "_blank");
+    let zone = zones.find(zone => zone.id + '' === document.getElementById('zoneId').textContent).url.replace("{COVER_URL}", coverURL).replace("{HTML_URL}", htmlURL);
+    fetch(zone+"?t="+Date.now()).then(response => response.text()).then(html => {
+        if (newWindow) {
+            newWindow.document.open();
+            newWindow.document.write(html);
+            newWindow.document.close();
+        }
+    })
+}
+
+function closeZone() {
+    zoneViewer.hidden = false;
+    zoneViewer.style.display = "none";
+    zoneViewer.removeChild(zoneFrame);
+    const url = new URL(window.location);
+    url.searchParams.delete('id');
+    history.pushState(null, '', url.toString());
+}
+
+function downloadZone() {
+    let zone = zones.find(zone => zone.id + '' === document.getElementById('zoneId').textContent);
+    fetch(zone.url.replace("{HTML_URL}", htmlURL)+"?t="+Date.now()).then(res => res.text()).then(text => {
+        const blob = new Blob([text], {
+            type: "text/plain;charset=utf-8"
+        });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = zone.name + ".html";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    });
+}
+
+function fullscreenZone() {
+    if (zoneFrame.requestFullscreen) {
+        zoneFrame.requestFullscreen();
+    } else if (zoneFrame.mozRequestFullScreen) {
+        zoneFrame.mozRequestFullScreen();
+    } else if (zoneFrame.webkitRequestFullscreen) {
+        zoneFrame.webkitRequestFullscreen();
+    } else if (zoneFrame.msRequestFullscreen) {
+        zoneFrame.msRequestFullscreen();
+    }
+}
+
+function sanitizeData(obj, maxStringLen = 1000, maxArrayLen = 10000) {
+    if (typeof obj === 'string') {
+      return obj.length > maxStringLen ? obj.slice(0, maxStringLen) + '...[truncated]' : obj;
+    }
+    
+    if (obj instanceof Uint8Array) {
+      if (obj.length > maxArrayLen) {
+        return `[Uint8Array too large (${obj.length} bytes), truncated]`;
+      }
+      return obj;
+    }
+    
+    if (Array.isArray(obj)) {
+      return obj.map(item => sanitizeData(item, maxStringLen, maxArrayLen));
+    }
+    
+    if (obj && typeof obj === 'object') {
+      const newObj = {};
+      for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          newObj[key] = sanitizeData(obj[key], maxStringLen, maxArrayLen);
+        }
+      }
+      return newObj;
+    }
+    
+    return obj;
+  }
+
+async function saveData() {
+    alert("This might take a while, dont touch anything other than this OK button");
+    const result = {};
+    result.cookies = document.cookie;
+    result.localStorage = {...localStorage};
+    result.sessionStorage = {...sessionStorage};
+    result.indexedDB = {};
+    const dbs = await indexedDB.databases();
+    for (const dbInfo of dbs) {
+      if (!dbInfo.name) continue;
+      result.indexedDB[dbInfo.name] = {};
+      await new Promise((resolve, reject) => {
+        const openRequest = indexedDB.open(dbInfo.name, dbInfo.version);
+        openRequest.onerror = () => reject(openRequest.error);
+        openRequest.onsuccess = () => {
+          const db = openRequest.result;
+          const storeNames = Array.from(db.objectStoreNames);
+          if (storeNames.length === 0) {
+            resolve();
+            return;
+          }
+          const transaction = db.transaction(storeNames, "readonly");
+          const storePromises = [];
+          for (const storeName of storeNames) {
+            result.indexedDB[dbInfo.name][storeName] = [];
+            const store = transaction.objectStore(storeName);
+            const getAllRequest = store.getAll();
+            const p = new Promise((res, rej) => {
+              getAllRequest.onsuccess = () => {
+                result.indexedDB[dbInfo.name][storeName] = sanitizeData(getAllRequest.result, 1000, 100);
+                res();
+              };
+              getAllRequest.onerror = () => rej(getAllRequest.error);
+            });
+            storePromises.push(p);
+          }
+          Promise.all(storePromises).then(() => resolve());
+        };
+      });
+    }
+
+    result.caches = {};
+    const cacheNames = await caches.keys();
+    for (const cacheName of cacheNames) {
+      const cache = await caches.open(cacheName);
+      const requests = await cache.keys();
+      result.caches[cacheName] = [];
+      for (const req of requests) {
+        const response = await cache.match(req);
+        if (!response) continue;
+        const cloned = response.clone();
+        const contentType = cloned.headers.get('content-type') || '';
+        let body;
+        try {
+          if (contentType.includes('application/json')) {
+            body = await cloned.json();
+          } else if (contentType.includes('text') || contentType.includes('javascript')) {
+            body = await cloned.text();
+          } else {
+            const buffer = await cloned.arrayBuffer();
+            body = btoa(String.fromCharCode(...new Uint8Array(buffer)));
+          }
+        } catch (e) {
+          body = '[Unable to read body]';
+        }
+        result.caches[cacheName].push({
+          url: req.url,
+          body,
+          contentType
+        });
+      }
+    }
+  
+    alert("Done, wait for the download to come");
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(new Blob([JSON.stringify(result)], {
+        type: "application/octet-stream"
+    }));
+    link.download = `${Date.now()}.data`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+  
+  async function loadData(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async function (e) {
+        const data = JSON.parse(e.target.result);
+        if (data.cookies) {
+            data.cookies.split(';').forEach(cookie => {
+              document.cookie = cookie.trim();
+            });
+          }
+        
+          if (data.localStorage) {
+            for (const key in data.localStorage) {
+              localStorage.setItem(key, data.localStorage[key]);
+            }
+          }
+        
+          if (data.sessionStorage) {
+            for (const key in data.sessionStorage) {
+              sessionStorage.setItem(key, data.sessionStorage[key]);
+            }
+          }
+        
+          if (data.indexedDB) {
+            for (const dbName in data.indexedDB) {
+              const stores = data.indexedDB[dbName];
+              await new Promise((resolve, reject) => {
+                const request = indexedDB.open(dbName, 1);
+                request.onupgradeneeded = e => {
+                  const db = e.target.result;
+                  for (const storeName in stores) {
+                    if (!db.objectStoreNames.contains(storeName)) {
+                      db.createObjectStore(storeName, { keyPath: 'id', autoIncrement: true });
+                    }
+                  }
+                };
+                request.onsuccess = e => {
+                  const db = e.target.result;
+                  const transaction = db.transaction(Object.keys(stores), 'readwrite');
+                  transaction.onerror = () => reject(transaction.error);
+                  let pendingStores = Object.keys(stores).length;
+        
+                  for (const storeName in stores) {
+                    const objectStore = transaction.objectStore(storeName);
+                    objectStore.clear().onsuccess = () => {
+                      for (const item of stores[storeName]) {
+                        objectStore.put(item);
+                      }
+                      pendingStores--;
+                      if (pendingStores === 0) resolve();
+                    };
+                  }
+                };
+                request.onerror = () => reject(request.error);
+              });
+            }
+          }
+        
+          if (data.caches) {
+            for (const cacheName in data.caches) {
+              const cache = await caches.open(cacheName);
+              await cache.keys().then(keys => Promise.all(keys.map(k => cache.delete(k)))); // clear existing
+        
+              for (const entry of data.caches[cacheName]) {
+                let responseBody;
+                if (entry.contentType.includes('application/json')) {
+                  responseBody = JSON.stringify(entry.body);
+                } else if (entry.contentType.includes('text') || entry.contentType.includes('javascript')) {
+                  responseBody = entry.body;
+                } else {
+                  const binaryStr = atob(entry.body);
+                  const len = binaryStr.length;
+                  const bytes = new Uint8Array(len);
+                  for (let i = 0; i < len; i++) {
+                    bytes[i] = binaryStr.charCodeAt(i);
+                  }
+                  responseBody = bytes.buffer;
+                }
+                const headers = new Headers({ 'content-type': entry.contentType });
+                const response = new Response(responseBody, { headers });
+                await cache.put(entry.url, response);
+              }
+            }
+          }
+        alert("Data loaded");
+    };
+    alert("This might take a while, dont touch anything other than this OK button");
+    reader.readAsText(file);
+  }
+
+function darkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+function cloakIcon(url) {
+    const link = document.querySelector("link[rel~='icon']");
+    link.rel = "icon";
+    if ((url+"").trim().length === 0) {
+        link.href = "favicon.png";
+    } else {
+        link.href = url;
+    }
+    document.head.appendChild(link);
+}
+function cloakName(string) {
+    if ((string+"").trim().length === 0) {
+        document.title = "Shrimpy | Re-Gn";
+        return;
+    }
+    document.title = string;
+}
+
+function tabCloak() {
+    closePopup();
+    document.getElementById('popupTitle').textContent = "Tab Cloak";
+    const popupBody = document.getElementById('popupBody');
+    popupBody.innerHTML = `
+        <label for="tab-cloak-textbox" style="font-weight: bold;">Set Tab Title:</label><br>
+        <input type="text" id="tab-cloak-textbox" placeholder="Enter new tab name..." oninput="cloakName(this.value)">
+        <br><br><br><br>
+        <label for="tab-cloak-textbox" style="font-weight: bold;">Set Tab Icon:</label><br>
+        <input type="text" id="tab-cloak-textbox" placeholder="Enter new tab icon..." oninput='cloakIcon(this.value)'>
+        <br><br><br>
+    `;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+}
+
+const settings = document.getElementById('settings');
+settings.addEventListener('click', () => {
+    document.getElementById('popupTitle').textContent = "Settings";
+    const popupBody = document.getElementById('popupBody');
+    popupBody.innerHTML = `
+    <button class="settings-button" onclick="darkMode()">Toggle Dark Mode</button>
+    <br><br>
+    <button class="settings-button" onclick="tabCloak()">Tab Cloak</button>
+    <br>
+    `;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+});
+
+function showContact() {
+    document.getElementById('popupTitle').textContent = "Contact";
+    const popupBody = document.getElementById('popupBody');
+    popupBody.innerHTML = `
+    <p>Discord: https://discord.gg/NAFw4ykZ7n</p>
+    <p>Email: gn.math.business@gmail.com</p>`;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+}
+
+function loadPrivacy() {
+    document.getElementById('popupTitle').textContent = "Privacy Policy";
+    const popupBody = document.getElementById('popupBody');
+    popupBody.innerHTML = `
+        <div style="max-height: 60vh; overflow-y: auto;">
+            <h2>PRIVACY POLICY</h2>
+            <p>Last updated April 17, 2025</p>
+            <p>This Privacy Notice for gn-math ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:</p>
+            <ul>
+                <li>Visit our website at <a href="https://gn-math.github.io">https://gn-math.github.io</a>, or any website of ours that links to this Privacy Notice</li>
+                <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+            </ul>
+            <p>Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="https://discord.gg/NAFw4ykZ7n">https://discord.gg/NAFw4ykZ7n</a>.</p>
+            
+            <h3>SUMMARY OF KEY POINTS</h3>
+            <p>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for.</p>
+            
+            <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about personal information you disclose to us.</p>
+            
+            <p><strong>Do we process any sensitive personal information?</strong> Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.</p>
+            
+            <p><strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.</p>
+            
+            <p><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about how we process your information.</p>
+            
+            <p><strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific third parties. Learn more about when and with whom we share your personal information.</p>
+            
+            <p><strong>How do we keep your information safe?</strong> We have adequate organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about how we keep your information safe.</p>
+            
+            <p><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about your privacy rights.</p>
+            
+            <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a data subject access request, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.</p>
+        </div>
+    `;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+}
+
+function loadDMCA() {
+    document.getElementById('popupTitle').textContent = "DMCA";
+    const popupBody = document.getElementById('popupBody');
+    popupBody.innerHTML = `
+        <div class="dmca-content">
+            <p>
+                If you own or developed a game that is on <strong>gn-math</strong> 
+                and would like it removed, please do one of the following:
+            </p>
+            <ol>
+                <li>
+                    <a href="https://discord.gg/D4c9VFYWyU" target="_blank" rel="noopener noreferrer">
+                        Join the Discord
+                    </a> and DM <strong>breadbb</strong> or ping me in a public channel 
+                    <strong>[INSTANT RESPONSE]</strong>
+                </li>
+                <li>
+                    Email me at 
+                    <a href="mailto:gn.math.business@gmail.com">gn.math.business@gmail.com</a> 
+                    with the subject starting with <code>!DMCA</code>.
+                    <strong>[DELAYED RESPONSE]</strong>
+                </li>
+            </ol>
+            <p>
+                If you are going to do an email, please show proof you own the game before I have to ask.
+            </p>
+        </div>
+    `;
+    popupBody.contentEditable = false;
+    document.getElementById('popupOverlay').style.display = "flex";
+}
+
+function closePopup() {
+    document.getElementById('popupOverlay').style.display = "none";
+}
+listZones();
+
+const schoolList = ["deledao", "goguardian", "lightspeed", "linewize", "securly", ".edu/"];
+
+function isBlockedDomain(url) {
+    const domain = new URL(url, location.origin).hostname + "/";
+    return schoolList.some(school => domain.includes(school));
+}
+
+const originalFetch = window.fetch;
+window.fetch = function (url, options) {
+    if (isBlockedDomain(url)) {
+        console.warn(`lam`);
+        return Promise.reject(new Error("lam"));
+    }
+    return originalFetch.apply(this, arguments);
+};
+
+const originalOpen = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function (method, url) {
+    if (isBlockedDomain(url)) {
+        console.warn(`lam`);
+        return;
+    }
+    return originalOpen.apply(this, arguments);
+};
+
+HTMLCanvasElement.prototype.toDataURL = function (...args) {
+    return "";
+};</script>
+    <script>
+        const search = new URLSearchParams(window.location.search);
+        const privacy = search.get('privacy');
+        if (privacy) {
+            loadPrivacy();
+        }
+    </script>
+</body>
+</html>
